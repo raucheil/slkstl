@@ -9,7 +9,7 @@ var sass = require('gulp-sass');
 //style paths
 var sassFiles = 'styles/sass/**/*.scss',
     cssDest = 'styles/css/',
-    publicDest = 'U:/public_html/skin/frontend/rwd/silikomart/css/';
+    publicDest = 'W:/public_html/skin/frontend/rwd/silikomart/css/';
 
 // gulp.task('js-watch', function (done) {
 //     browserSync.reload();

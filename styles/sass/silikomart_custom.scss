@@ -146,6 +146,8 @@ h3,.h3{
     }
 }
 
+@media only screen and (min-width : 768px) {
+
 #header-search{
     display: block;
     position: absolute;
@@ -154,6 +156,7 @@ h3,.h3{
     width: 30%;
     height: 40px;
     padding: 0;
+}
 }
 
 
@@ -179,6 +182,21 @@ h3,.h3{
             // -moz-transition: all 0.4s ease-in-out;
             // transition:all 0.4s ease-in-out;
 
+        }
+        .glyphicon-align-justify{
+
+            &:before{
+                font: normal normal normal 14px/1 FontAwesome;
+                font-size: inherit;
+                text-rendering: auto;
+                -webkit-font-smoothing: antialiased;
+                content:'\f0c9';
+            }
+            &.flag{
+                &:before{
+                content:'\f00d';
+                }
+            }
         }
     } 
     .ms-submenu{
@@ -713,7 +731,8 @@ section.featured-products{
 
 /* Extra Small Devices, Phones */ 
   /* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {        
+@media only screen and (max-width : 768px) {     
+
     .footer-top-content{
         .item{
             width:100%;
